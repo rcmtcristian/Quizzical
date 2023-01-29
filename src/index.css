@@ -28,6 +28,16 @@
     hsl(var(--hue), 95%, 84%)
   );
 }
+@font-face {
+  font-family: "arbutus_slabregular";
+  src: url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff2")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
+  font-family: "arbutus_slabregular", Courier, monospace;
 }
