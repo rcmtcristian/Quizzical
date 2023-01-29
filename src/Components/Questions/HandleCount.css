@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "arbutus_slabregular";
+  src: url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff2")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "arbutus_slabregular", Courier, monospace;
+}
+input[type="number"] {
+  background-color: #4f4f4f;
+  border-color: gray;
+  border-radius: 5px;
+  border-style: solid;
+  color: #faf8f2;
+}
+
+input[type="number"]:hover {
+  background-color: gray;
+  color: #4f4f4f;
+}
+
+input[type="number"]:focus {
+  background-color: silver;
+  color: #4f4f4f;
+}
+
+.questionMarkIcon {
+  max-height: 4em;
+  margin-bottom: 0.3em;
+}
+
+.numberInput {
+  bottom: 0;
+  height: 45px;
+  left: 0;
+  margin: auto;
+  right: 0;
+  top: 0;
+  width: 60px;
+  font-size: 1.4rem;
+  padding-left: 0.6em;
+  text-align: center;
+}
+
+.number--container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
