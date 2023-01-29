@@ -32,7 +32,7 @@
   font-family: "arbutus_slabregular";
   src: url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff2")
       format("woff2"),
-    url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff2")
+    url("./assets/fonts/Arbutus_Slab_webkit/arbutusslab-regular-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
