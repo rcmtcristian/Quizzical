@@ -9,7 +9,7 @@ function HandleCount() {
     <div className="number--container">
       <img
         className="questionMarkIcon"
-        src="../src/assets/icon.svg"
+        src="./src/assets/icon.svg"
         alt="Question Count"
       />
       <input
