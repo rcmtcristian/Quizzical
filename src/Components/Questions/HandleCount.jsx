@@ -10,7 +10,7 @@ function HandleCount() {
       
       <img
         className="questionMarkIcon"
-        src="https://img.icons8.com/ios-filled/50/ff6981/decision.png"
+        src="https://i.imgur.com/IrC6HBW.png"
         alt="Question Count"
       />
      

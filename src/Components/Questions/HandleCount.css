@@ -31,7 +31,7 @@ input[type="number"]:focus {
 }
 
 .questionMarkIcon {
-  max-height: 4em;
+  max-height: 8em;
   margin-bottom: 0.3em;
 }
 
