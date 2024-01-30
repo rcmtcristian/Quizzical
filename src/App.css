@@ -17,10 +17,11 @@
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
   font-family: "arbutus_slabregular", Courier, monospace;
+  color: #fff;
 }
 
 a {
-  color: #ff9776;
+  color: #175a5a;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -63,19 +64,8 @@ a {
 }
 
 .startGame--button {
-  background-color: #8283da;
-  color: #f5f7fb;
-  border: none;
-  border-radius: 10px;
-  padding: 16px 26px;
-  font-size: 1.5rem;
-  font-weight: 400;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-}
+  background-color: #175a5a;
 
-.startGame--button:hover {
-  background-color: #ff9776;
   color: #f5f7fb;
   border: none;
   border-radius: 10px;
@@ -87,7 +77,20 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.quizzicalInfo {
+.startGame--button:hover {
+  background-color: #00d0cb;
+
+  color: #f5f7fb;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 26px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.QuizzHopInfo {
   width: 40%;
 }
 
@@ -142,6 +145,7 @@ a {
   text-align: center;
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC")
     repeat 0 0;
+
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
   /* Safari 4+ */
   -moz-animation: bg-scrolling-reverse 0.92s infinite;

@@ -7,11 +7,13 @@ function HandleCount() {
   const changeHandler = (event) => setQuestionCount(event.target.value);
   return (
     <div className="number--container">
+      
       <img
         className="questionMarkIcon"
         src="https://img.icons8.com/ios-filled/50/ff6981/decision.png"
         alt="Question Count"
       />
+     
       <input
         className="numberInput"
         type="number"
@@ -19,7 +21,7 @@ function HandleCount() {
         min="3"
         value={questionCount}
         onChange={changeHandler}
-        placeholder="Enter a number"
+        placeholder="How Many Questions Will You Answer?"
       />
     </div>
   );

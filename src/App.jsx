@@ -1,6 +1,6 @@
 import { useState, useContext, useMemo } from "react";
-import topShape from "./assets/smileLarge.png";
-import bottomShape from "./assets/skull-1.png";
+import topShape from "./assets/BunnyHop.png";
+import bottomShape from "./assets/BunnyHop.png";
 import Question from "./Components/Questions/fetchQuestions";
 import "./App.css";
 import useSound from "use-sound";
@@ -38,12 +38,12 @@ function App() {
           ) : (
             <section className="welcome-container">
               <h1>
-                Welcome to Quizzical by {""}
+                Welcome to QuizzHop by {""}
                 <a href="https://github.com/rcmtcristian">rcmtcristian</a>
               </h1>
-              <p className="quizzicalInfo">
-                <h3>What is Quizzical</h3> It is a trivia game <hr></hr>
-                Quizzical is an adjective that describes a person or expression
+              <p className="QuizzHopInfo">
+                <h3>What is QuizzHop</h3> It is a trivia game <hr></hr>
+                QuizzHop is an adjective that describes a person or expression
                 that shows curiosity or confusion. It can also mean strange or
                 unusual. Pretty cool huh?
               </p>

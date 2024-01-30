@@ -194,7 +194,7 @@ function fetchQuestions() {
       {confetti}
       <section className="quiz-main">
         <div className="question-container">
-          <h1 className="heading">Quizzical</h1>
+          <h1 className="heading">QuizzHop</h1>
           {renderElement}
           <hr></hr>
           <div className={"result-section"}>
